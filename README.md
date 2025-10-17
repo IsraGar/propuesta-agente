@@ -68,8 +68,13 @@ _A continuación te dejo una breve descripción referente a los niveles de sopor
     - Hoja: Hoja con las columnas necesarias para registrar información
 ---
 
+### Arquitectura actual
+<div align="center"><img src="images/AgenteArq.png" alt="Arquitectura"></div>
+
+---
+
 ### Flujo en Make
-<div align="center"><img src="images/TicketsSoporte.png" alt="Descripción de la imagen"></div>
+<div align="center"><img src="images/TicketsSoporte.png" alt="Flujo"></div>
 
 ---
 
