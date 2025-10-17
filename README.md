@@ -20,11 +20,11 @@ Optimizar y agilizar el proceso de registro y clasificación de incidencias de T
    - **N1:** Soporte básico / primera línea  
    - **N2:** Soporte avanzado  
    - **N3:** Soporte especializado  
-   - **N4:** Soporte externo o de terceros  
-3. **Registro automático:**  
-   Los datos del ticket (Nombre, username, incidencia, fecha, asignado o no y nivel asignado) se guardan automáticamente en una **hoja de Google Sheets**.  
-4. **Respuesta al usuario:**  
+   - **N4:** Soporte externo o de terceros   
+3. **Respuesta al usuario:**  
    El bot envía un mensaje de confirmación indicando que la solicitud ha sido recibida y asignada correctamente.
+4. **Registro automático:**  
+   Los datos del ticket (Nombre, username, incidencia, fecha, asignado o no y nivel asignado) se guardan automáticamente en una **hoja de Google Sheets**. 
 
 ---
 
@@ -37,8 +37,6 @@ Optimizar y agilizar el proceso de registro y clasificación de incidencias de T
   - Bot Token (conexión con Telegram que se realiza directo en la app)  
   - Tipo de actualización: *Envío de mensajes (Ahora trabaja solo con texto)*  
   - Webhook configurado automáticamente por Make  
-
----
 
 ### 2. 🤖 **Create a Completion (Google Gemini AI)**
 - **Función:** Analiza la descripción de la incidencia y determina el nivel de soporte más adecuado.  
